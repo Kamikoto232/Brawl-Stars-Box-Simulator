@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 28636eb12821be8448568af98b769fae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7305808716460074650
+    second: AtlasAvatarki_0
+  - first:
+      213: -2869349023372110325
+    second: AtlasAvatarki_1
+  - first:
+      213: 6322182510200944820
+    second: AtlasAvatarki_2
+  - first:
+      213: -1227157060507583261
+    second: AtlasAvatarki_3
+  - first:
+      213: 814394725217017752
+    second: AtlasAvatarki_4
+  - first:
+      213: -4646218522653449297
+    second: AtlasAvatarki_5
+  - first:
+      213: 6926859704836744853
+    second: AtlasAvatarki_6
+  - first:
+      213: 3708960294000222462
+    second: AtlasAvatarki_7
+  - first:
+      213: 2914058259128808869
+    second: AtlasAvatarki_8
+  - first:
+      213: -147815977321048348
+    second: AtlasAvatarki_9
+  - first:
+      213: -3205116098275817083
+    second: AtlasAvatarki_10
+  - first:
+      213: -2590993884979176495
+    second: AtlasAvatarki_11
+  - first:
+      213: -1335352895153768694
+    second: AtlasAvatarki_12
+  - first:
+      213: -8616446817476471317
+    second: AtlasAvatarki_13
+  - first:
+      213: 5962793796545366517
+    second: AtlasAvatarki_14
+  - first:
+      213: 1784994524141375612
+    second: AtlasAvatarki_15
+  - first:
+      213: 1715679616817990624
+    second: AtlasAvatarki_16
+  - first:
+      213: 8801218809980113513
+    second: AtlasAvatarki_17
+  - first:
+      213: 8934981549524414629
+    second: AtlasAvatarki_18
+  - first:
+      213: -9108782617415505316
+    second: AtlasAvatarki_19
+  - first:
+      213: 6770221644702416294
+    second: AtlasAvatarki_20
+  - first:
+      213: 4641219777374505422
+    second: AtlasAvatarki_21
+  - first:
+      213: 5520752393292562017
+    second: AtlasAvatarki_22
+  - first:
+      213: 984483004812779602
+    second: AtlasAvatarki_23
+  - first:
+      213: -2861971353752423839
+    second: AtlasAvatarki_24
+  - first:
+      213: -8820731851706778288
+    second: AtlasAvatarki_25
+  - first:
+      213: 1797098268178498524
+    second: AtlasAvatarki_26
+  - first:
+      213: -5452687782041405933
+    second: AtlasAvatarki_27
+  - first:
+      213: 5822785687718492148
+    second: AtlasAvatarki_28
+  - first:
+      213: 7794894712786638556
+    second: AtlasAvatarki_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasAvatarki_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de34bc2bc2505045a78e057c000d6f1
+      internalID: -7305808716460074650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc404bf9fedbb03408c55b93ed815055
+      internalID: -2869349023372110325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee8aaa945f0ab440b577434eb36e60c
+      internalID: 6322182510200944820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcb214a1a812984081f0f6305bab1a6
+      internalID: -1227157060507583261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae6c4b923153d9488e651a14fc3c7af
+      internalID: 814394725217017752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab1d56cfb03e82499475e51bd28027b
+      internalID: -4646218522653449297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_6
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35aa430577f1b8245ad4120da4c2e259
+      internalID: 6926859704836744853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_7
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3339c2acd06aa4f87521e50cb4aa0a
+      internalID: 3708960294000222462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_8
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bfb4012e7fd5b40803880e9fdc1183
+      internalID: 2914058259128808869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_9
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 611
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dbb6a9e092a864d8d045488d4ee648
+      internalID: -147815977321048348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec852b1d70408b48a336586e19285ae
+      internalID: -3205116098275817083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98b1cea33c8ac646b6a641a2d0c55d7
+      internalID: -2590993884979176495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5e2dbd9e1561b41b00924d3889adcf
+      internalID: -1335352895153768694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_13
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a235ea20363a45af6b5eaa58f00e6
+      internalID: -8616446817476471317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_14
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d50d848685bce4497c63dccc6b6ec5
+      internalID: 5962793796545366517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9886ec444b5134942bd7f17f11631042
+      internalID: 1784994524141375612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_16
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bc8b4254e9fbc4c97ec3b526900a5a
+      internalID: 1715679616817990624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_17
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d5956eaead004faa041e1ba25c0d6
+      internalID: 8801218809980113513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_18
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06921a28c1b188c4197b6ed21ff74b40
+      internalID: 8934981549524414629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_19
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5374dc9a51db0f4fb3074953d102edb
+      internalID: -9108782617415505316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac97d3aece4c6841ad85104e86a2464
+      internalID: 6770221644702416294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0b4e87026b1d4c9260d2ae144f18d
+      internalID: 4641219777374505422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_22
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7958e716ab541a4b99bdb3a1072215a
+      internalID: 5520752393292562017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_23
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df774bf60f08cbc448e166e44c1c6f3c
+      internalID: 984483004812779602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_24
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbb37d61a91a842a51788af26caaf6
+      internalID: -2861971353752423839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2730551f73b842248baac574fa012047
+      internalID: -8820731851706778288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_26
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84202087dd39cf47aae6e804fefffa6
+      internalID: 1797098268178498524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_27
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e2b6e96a9e214cbf0104af9925883
+      internalID: -5452687782041405933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_28
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3854b1636e90f4da7acd9f43eeab2f
+      internalID: 5822785687718492148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasAvatarki_29
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 203
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f50194c1de5ab043b91b2e485ca6334
+      internalID: 7794894712786638556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

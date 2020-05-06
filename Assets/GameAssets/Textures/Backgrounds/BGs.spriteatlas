@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BGs
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 64
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 97bdf870309b327469724fd9c7b746e1, type: 3}
+    - {fileID: 2800000, guid: 5defa89eb071f13428d83a6011c20df6, type: 3}
+    - {fileID: 2800000, guid: cac356290cbf97543913c61896c51203, type: 3}
+    - {fileID: 2800000, guid: b20a446a6da90d54abf496c83c95f175, type: 3}
+    - {fileID: 2800000, guid: 13a56fa398f5373429d26660932ad56e, type: 3}
+    totalSpriteSurfaceArea: 747520
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 97bdf870309b327469724fd9c7b746e1, type: 3}
+  - {fileID: 21300000, guid: 13a56fa398f5373429d26660932ad56e, type: 3}
+  - {fileID: 21300000, guid: cac356290cbf97543913c61896c51203, type: 3}
+  - {fileID: 21300000, guid: b20a446a6da90d54abf496c83c95f175, type: 3}
+  - {fileID: 21300000, guid: 5defa89eb071f13428d83a6011c20df6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - BackGround-sharedassets0.assets.split0-29
+  - backrground_lemon-sharedassets2.assets.split0-19
+  - blur_loading-sharedassets2.assets.split0-46
+  - RedBG-sharedassets0.assets.split0-41
+  - background_gold-sharedassets2.assets.split0-31
+  m_Tag: BGs
+  m_IsVariant: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e7e61d266ae6c46a75f0b220f18ef3, type: 3}
+  m_Name: BigBox
+  m_EditorClassIdentifier: 
+  Items:
+  - ItemType: 4
+    Chance: 0.4
+    CountMin: 10
+    CountMax: 50
+  - ItemType: 3
+    Chance: 0.25
+    CountMin: 3
+    CountMax: 10
+  - ItemType: 2
+    Chance: 0.05
+    CountMin: 5
+    CountMax: 10
+  - ItemType: 1
+    Chance: 0.15
+    CountMin: 5
+    CountMax: 10
+  - ItemType: 0
+    Chance: 0.1
+    CountMin: 5
+    CountMax: 10
+  MinItems: 2
+  MaxItems: 3
+  XP: 5
+  Cost: 30
+  CostMethod: 0
+  BoxSprite: {fileID: 21300000, guid: 8873dde5fe392b940b28c849762a3682, type: 3}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e7e61d266ae6c46a75f0b220f18ef3, type: 3}
+  m_Name: MegaBox
+  m_EditorClassIdentifier: 
+  Items:
+  - ItemType: 4
+    Chance: 0.35
+    CountMin: 15
+    CountMax: 50
+  - ItemType: 3
+    Chance: 0.3
+    CountMin: 10
+    CountMax: 15
+  - ItemType: 2
+    Chance: 0.05
+    CountMin: 25
+    CountMax: 50
+  - ItemType: 1
+    Chance: 0.4
+    CountMin: 25
+    CountMax: 50
+  - ItemType: 0
+    Chance: 0.1
+    CountMin: 25
+    CountMax: 50
+  MinItems: 5
+  MaxItems: 6
+  XP: 20
+  Cost: 30
+  CostMethod: 1
+  BoxSprite: {fileID: 21300000, guid: 65a1848745da3134f9c470beb1f6bf7c, type: 3}
