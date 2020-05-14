@@ -21,7 +21,7 @@ public class BoxItemManager : MonoBehaviour
             if (Application.installMode != ApplicationInstallMode.DeveloperBuild || Application.installMode != ApplicationInstallMode.Editor)
                 BoxOpenNumberToAds++;
 
-            if (!PlayerDataModel.instance.Dev && BoxOpenNumberToAds > 15)
+            if (!PlayerDataModel.instance.Dev && BoxOpenNumberToAds > 9)
             {
                 ADSManager.ShowInterstitialAds();
                 BoxOpenNumberToAds = 0;
@@ -55,8 +55,6 @@ public class BoxItemManager : MonoBehaviour
             Statistics.OpenBox(box);
             SetShowedItems(GetItemsFromBox(box.Items));
             PlayerDataModel.AddXp(box.XP);
-
-            
         }
         else
         {
@@ -79,6 +77,7 @@ public class BoxItemManager : MonoBehaviour
 
             case Box.CostType.ADS:
                 return ADSManager.IsRewardedAdReady();
+
             default:
                 return false;
         }
@@ -164,7 +163,7 @@ public class BoxItemManager : MonoBehaviour
             }
         }
 
-        if(items.Count == 0)
+        if (items.Count == 0)
         {
             Debug.LogError("߷߷ Что то пошло не так ߷߷");
         }
@@ -188,9 +187,8 @@ public class BoxItemManager : MonoBehaviour
         if (item.ItemType == ItemData.Type.Brawler)
         {
             i.Brawler = BrawlersManager.GetBrawler();
-            
         }
-        else if(item.ItemType == ItemData.Type.BrawlerPower)
+        else if (item.ItemType == ItemData.Type.BrawlerPower)
         {
             i.Brawler = BrawlersManager.GetOpenBrawler();
         }
@@ -206,7 +204,7 @@ public class BoxItemManager : MonoBehaviour
     private bool IsGetted(BoxItemData boxItemData)
     {
         float randomPoint = boxItemData.ItemType == ItemData.Type.Brawler
-            ? GetBrawlerChance() + Random.Range(0,totalChance) : Random.Range(0, totalChance);
+            ? GetBrawlerChance() + Random.Range(0, totalChance) : Random.Range(0, totalChance);
 
         return randomPoint <= boxItemData.Chance;
     }

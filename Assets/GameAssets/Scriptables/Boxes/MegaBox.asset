@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Items:
   - ItemType: 4
-    Chance: 0.35
+    Chance: 0.38
     CountMin: 15
     CountMax: 50
   - ItemType: 3
-    Chance: 0.3
-    CountMin: 10
-    CountMax: 15
+    Chance: 0.32
+    CountMin: 5
+    CountMax: 10
   - ItemType: 2
-    Chance: 0.05
-    CountMin: 25
-    CountMax: 50
+    Chance: 0.07
+    CountMin: 5
+    CountMax: 15
   - ItemType: 1
-    Chance: 0.4
+    Chance: 0.3
     CountMin: 25
     CountMax: 50
   - ItemType: 0

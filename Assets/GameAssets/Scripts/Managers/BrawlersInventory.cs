@@ -117,7 +117,6 @@ public class BrawlersInventory : MonoBehaviour
 
     private void UpdateBrawlersCount()
     {
-        print(inventory.OpenBrawlerDatas.Count);
         OpenBrawlersCountProg.SetMax(inventory.OpenBrawlerDatas.Count);
         OpenBrawlersCountProg.InstantSetValue(inventory.OpenBrawlerDatas.Count);
         TotalBrawlersCount.SetMax(brawlers.Length);

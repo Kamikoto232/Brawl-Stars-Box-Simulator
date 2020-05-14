@@ -15,16 +15,16 @@ MonoBehaviour:
   Items:
   - ItemType: 4
     Chance: 0.7
-    CountMin: 8
-    CountMax: 25
+    CountMin: 5
+    CountMax: 14
   - ItemType: 3
     Chance: 0.2
     CountMin: 1
-    CountMax: 5
+    CountMax: 2
   - ItemType: 2
-    Chance: 0.02
+    Chance: 0.1
     CountMin: 1
-    CountMax: 5
+    CountMax: 2
   MinItems: 1
   MaxItems: 2
   XP: 1
