@@ -40,8 +40,8 @@ MonoBehaviour:
   RecentlyOpenedGraphs:
   - {fileID: 11400000, guid: ba270cebda5f4d147ba5d3907e6c9936, type: 2}
   - {fileID: 11400000, guid: c8ba30f09528e3d4f978833832c379f9, type: 2}
-  - {fileID: 11400000, guid: ef031d076bfc0c7409f4414d9726cf88, type: 2}
-  - {fileID: 11400000, guid: 7aa078f73ef5b5548831e32fd597b98f, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   CopiedNodes: []
   DeletedNodes:
   - {fileID: 5931008406789201845, guid: ba270cebda5f4d147ba5d3907e6c9936, type: 2}
@@ -53,7 +53,7 @@ MonoBehaviour:
     Graph: {fileID: 11400000, guid: ba270cebda5f4d147ba5d3907e6c9936, type: 2}
     SubGraphNode: {fileID: 0}
     Zoom: 0.7
-    PanOffset: {x: 339.22064, y: 360.94492}
+    PanOffset: {x: 234.22064, y: 216.94492}
     SelectedNodes: []
     DeletedNodes: []
   CurrentView: 1

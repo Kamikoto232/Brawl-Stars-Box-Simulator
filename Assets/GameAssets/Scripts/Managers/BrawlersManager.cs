@@ -1,14 +1,13 @@
-﻿using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 
 public class BrawlersManager : MonoBehaviour
 {
     public static BrawlersManager instance;
     private float luckyFactor;
 
-    void Awake()
+    private void Awake()
     {
         instance = this;
     }
@@ -27,20 +26,25 @@ public class BrawlersManager : MonoBehaviour
                 case Brawler.Rarity.Normal:
                     luckyFactor -= 0.001f;
                     break;
+
                 case Brawler.Rarity.Rare:
                     luckyFactor -= 0.002f;
                     break;
+
                 case Brawler.Rarity.SuperRare:
+                    luckyFactor -= 0.0025f;
+                    break;
+
+                case Brawler.Rarity.Epic:
                     luckyFactor -= 0.003f;
                     break;
-                case Brawler.Rarity.Epic:
-                    luckyFactor -= 0.005f;
-                    break;
+
                 case Brawler.Rarity.Mythical:
-                    luckyFactor -= 0.008f;
+                    luckyFactor -= 0.0034f;
                     break;
+
                 case Brawler.Rarity.Legendary:
-                    luckyFactor -= 0.01f;
+                    luckyFactor -= 0.0036f;
                     break;
             }
         }
@@ -84,7 +88,7 @@ public class BrawlersManager : MonoBehaviour
             trying++;
         }
         while (trying < 15 && BrawlersInventory.HasBrawler(brawler));
-        if(brawler == null)
+        if (brawler == null)
         {
             print(1323);
         }
@@ -121,7 +125,7 @@ public class BrawlersManager : MonoBehaviour
         }
 
         List<Brawler> brawlersSorted = BrawlersInventory.instance.brawlers.Where(b => !BrawlersInventory.HasBrawler(b) && b.RarityType == rarity).ToList();
-        if(brawlersSorted.Count == 0)
+        if (brawlersSorted.Count == 0)
         {
             return BrawlersInventory.instance.brawlers[Random.Range(0, BrawlersInventory.instance.brawlers.Length)];
         }

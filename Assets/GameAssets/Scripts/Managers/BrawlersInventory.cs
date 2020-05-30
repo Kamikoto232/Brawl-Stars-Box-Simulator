@@ -11,7 +11,7 @@ public class BrawlersInventory : MonoBehaviour
     public Brawler[] brawlers { get; private set; }
     public InventoryData inventory;
     public BrawlerCard BrawlerCardPrefab;
-    public Transform BrawlerCardsRoot;
+    public Transform NormalRoot, RareRoot, SuperRareRoot, EpicRoot, MythicalRoot, LegendaryRoot;
     public Progressor OpenBrawlersCountProg, TotalBrawlersCount;
 
     public static event Action<Brawler, BrawlerData> OnAddBrawler;
@@ -41,19 +41,19 @@ public class BrawlersInventory : MonoBehaviour
         Brawler[] Mythical = brawlers.Where(x => x.RarityType == Brawler.Rarity.Mythical).ToArray();
         Brawler[] Legendary = brawlers.Where(x => x.RarityType == Brawler.Rarity.Legendary).ToArray();
 
-        InstantiateCard(Normal);
-        InstantiateCard(Rare);
-        InstantiateCard(SuperRare);
-        InstantiateCard(Epic);
-        InstantiateCard(Mythical);
-        InstantiateCard(Legendary);
+        InstantiateCard(Normal, NormalRoot);
+        InstantiateCard(Rare, RareRoot);
+        InstantiateCard(SuperRare, SuperRareRoot);
+        InstantiateCard(Epic, EpicRoot);
+        InstantiateCard(Mythical, MythicalRoot);
+        InstantiateCard(Legendary, LegendaryRoot);
     }
 
-    private void InstantiateCard(Brawler[] brawlers)
+    private void InstantiateCard(Brawler[] brawlers, Transform root)
     {
         for (int i = 0; i < brawlers.Length; ++i)
         {
-            Instantiate(BrawlerCardPrefab.gameObject, BrawlerCardsRoot).GetComponent<BrawlerCard>().Init(brawlers[i], GetOpenBrawler(brawlers[i]));
+            Instantiate(BrawlerCardPrefab.gameObject, root).GetComponent<BrawlerCard>().Init(brawlers[i], GetOpenBrawler(brawlers[i]));
         }
     }
 
@@ -95,11 +95,8 @@ public class BrawlersInventory : MonoBehaviour
         BrawlerData brawlerData = null;
         if (b == null)
         {
-            print(123213);
             return false;
         }
-
-        print(b.BrawlerName);
 
         brawlerData = instance.inventory.OpenBrawlerDatas.Find((br) => br.BrawlerName == b.BrawlerName);
         

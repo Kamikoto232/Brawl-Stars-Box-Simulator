@@ -1,9 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public static class ItemDistributor
+﻿public static class ItemDistributor
 {
     public delegate void GetItem(ItemData itemData);
+
     public static event GetItem OnGetItem;
 
     public static void AddItem(ItemData itemData)

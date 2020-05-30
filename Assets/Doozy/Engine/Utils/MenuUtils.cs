@@ -407,6 +407,15 @@ namespace Doozy.Engine.Utils
         public const string ProgressTargetImage_Manual = "http://doozyui.com/progress-target-image/";
         public const string ProgressTargetImage_YouTube = "https://www.youtube.com/watch?v=XUH85WaPg_0";
 
+        //ProgressTargetImage
+        public const string ProgressTargetSFImage_GameObject_Name = "Progress Target Sliced Filled Image";
+        public const string ProgressTargetSFImage_AddComponentMenu_MenuName = Progress_Targets_AddComponentMenu_Path + ProgressTargetImage_GameObject_Name;
+        public const int ProgressTargetSFImage_AddComponentMenu_Order = PROGRESS_MENU_ORDER;
+        public const string ProgressTargetSFImage_MenuItem_ItemName = Progress_Targets_MenuItem_Path + ProgressTargetImage_GameObject_Name;
+        public const int ProgressTargetSFImage_MenuItem_Priority = PROGRESS_MENU_ORDER;
+        public const string ProgressSFTargetImage_Manual = "http://doozyui.com/progress-target-image/";
+        public const string ProgressSFTargetImage_YouTube = "https://www.youtube.com/watch?v=XUH85WaPg_0";
+
         //ProgressTargetText
         public const string ProgressTargetText_GameObject_Name = "Progress Target Text";
         public const string ProgressTargetText_AddComponentMenu_MenuName = Progress_Targets_AddComponentMenu_Path + ProgressTargetText_GameObject_Name;

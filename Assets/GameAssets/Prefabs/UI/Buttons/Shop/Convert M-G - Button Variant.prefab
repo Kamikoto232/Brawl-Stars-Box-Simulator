@@ -11,7 +11,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 706c888669484cd4e9d290487ba16435,
+      objectReference: {fileID: 21300000, guid: 94e6d68b9a8955f47a012207ad84c6ce,
         type: 3}
     - target: {fileID: 1552275512482779389, guid: f3292987bf058584d856907cee8dc44f,
         type: 3}
@@ -70,6 +70,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1355963477761956147, guid: 17d235c2d6ab62a4bbd3a8cc316a4ccc,
         type: 2}
+    - target: {fileID: 1552275513400508882, guid: f3292987bf058584d856907cee8dc44f,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1552275513559544770, guid: f3292987bf058584d856907cee8dc44f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -179,11 +184,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Convert M-G - Button Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 1552275513559544773, guid: f3292987bf058584d856907cee8dc44f,
-        type: 3}
-      propertyPath: OnClick.OnTrigger.SoundData.SoundName
-      value: buy_gems_01
       objectReference: {fileID: 0}
     - target: {fileID: 1552275513559544775, guid: f3292987bf058584d856907cee8dc44f,
         type: 3}

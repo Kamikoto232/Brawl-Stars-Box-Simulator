@@ -13,6 +13,7 @@ public class BrawlerCard : MonoBehaviour
     public Progressor Level, Power;
     private Brawler CurrBrawler;
     public Button Btn;
+    public Image Locked;
     private BrawlerData brawlerDat;
 
     public void Init(Brawler brawler, BrawlerData brawlerData)
@@ -20,9 +21,10 @@ public class BrawlerCard : MonoBehaviour
         brawlerDat = brawlerData;
         Icon.sprite = brawler.Icon;
         Name.text = brawler.BrawlerName;
+
         if(brawlerData != null)
         {
-            CanvGroup.enabled = false;
+            Locked.gameObject.SetActive(false);
             Power.SetValue(brawlerData.Power);
             Power.SetMax(brawlerData.Power);
             Level.SetValue(brawlerData.Level);

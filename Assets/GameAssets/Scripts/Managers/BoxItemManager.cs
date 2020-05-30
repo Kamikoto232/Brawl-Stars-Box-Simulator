@@ -21,7 +21,7 @@ public class BoxItemManager : MonoBehaviour
             if (Application.installMode != ApplicationInstallMode.DeveloperBuild || Application.installMode != ApplicationInstallMode.Editor)
                 BoxOpenNumberToAds++;
 
-            if (!PlayerDataModel.instance.Dev && BoxOpenNumberToAds > 9)
+            if (!PlayerDataModel.instance.Dev && BoxOpenNumberToAds > 6)
             {
                 ADSManager.ShowInterstitialAds();
                 BoxOpenNumberToAds = 0;
@@ -123,7 +123,7 @@ public class BoxItemManager : MonoBehaviour
 
     private int ItemsInBox;
     private float totalChance;
-    private bool wasBrawler = false;
+    //private bool wasBrawler = false;
 
     private ItemData[] GetItemsFromBox(BoxItemData[] boxItemData)
     {
@@ -139,7 +139,7 @@ public class BoxItemManager : MonoBehaviour
         {
             tryingCount++;
 
-            if (tryingCount > 40)
+            if (tryingCount > 10)
             {
                 break;
             }
@@ -157,32 +157,37 @@ public class BoxItemManager : MonoBehaviour
                     else
                     {
                         items.Add(newItem);
-                        wasBrawler = true;
+                        //wasBrawler = true;
                     }
                 }
             }
         }
 
-        if (items.Count == 0)
-        {
-            Debug.LogError("߷߷ Что то пошло не так ߷߷");
-        }
+        //if (items.Count == 0)
+        //{
+        //    Debug.LogError("߷߷ Что то пошло не так ߷߷");
+        //}
 
-        wasBrawler = false;
+        //wasBrawler = false;
         totalChance = 0;
         return items.ToArray();
     }
 
+    private ItemData i = new ItemData();
+
     private ItemData GetItemData(BoxItemData item) //генерируем инфу о выпавшем предмете
     {
-        if (item.ItemType == ItemData.Type.Brawler)
-            print("BRAWLER");
+        //if (item.ItemType == ItemData.Type.Brawler)
+        //    print("BRAWLER");
 
-        ItemData i = new ItemData
-        {
-            Count = Random.Range(item.CountMin, item.CountMax),
-            ItemType = item.ItemType,
-        };
+        //ItemData i = new ItemData
+        //{
+        //    Count = Random.Range(item.CountMin, item.CountMax),
+        //    ItemType = item.ItemType,
+        //};
+
+        i.Count = Random.Range(item.CountMin, item.CountMax);
+        i.ItemType = item.ItemType;
 
         if (item.ItemType == ItemData.Type.Brawler)
         {
@@ -192,10 +197,11 @@ public class BoxItemManager : MonoBehaviour
         {
             i.Brawler = BrawlersManager.GetOpenBrawler();
         }
-        if (item.ItemType == ItemData.Type.Brawler && i.Brawler == null)
-        {
-            print(2132135555);
-        }
+
+        //if (item.ItemType == ItemData.Type.Brawler && i.Brawler == null)
+        //{
+        //    print(2132135555);
+        //}
         //if (i.Brawler) wasBrawler = true;
 
         return i; //когда выпадает бравлер то бравлер = нулл или нет..

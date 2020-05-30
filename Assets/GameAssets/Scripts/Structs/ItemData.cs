@@ -1,13 +1,13 @@
-﻿using UnityEngine;
-using System.Collections;
-
-[System.Serializable]
+﻿[System.Serializable]
 public struct ItemData
 {
     public enum Type { Brawler, BrawlerPower, Tickets, Gems, Coins }
+
     public Type ItemType;
+
     [System.NonSerialized]
     public Brawler Brawler;
+
     public int Count;
 
     public ItemData(Type ItemType, int Count, Brawler BrawlerCard)

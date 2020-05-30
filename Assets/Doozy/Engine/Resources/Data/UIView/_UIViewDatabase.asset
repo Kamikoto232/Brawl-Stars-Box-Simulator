@@ -15,18 +15,16 @@ MonoBehaviour:
   DatabaseType: 2
   CategoryNames:
   - Custom
-  - Example
   - Game
   - General
   - Items Backgrounds
-  - Other
   - OpenBox Animated
+  - Other
   - Windows
   Categories:
-  - {fileID: 11400000, guid: b01e98f4801f7124ba39e1dac4debf90, type: 2}
   - {fileID: 11400000, guid: 53d3328f54f9c3d4292ba5682aec68cd, type: 2}
   - {fileID: 11400000, guid: 499a30749a0101d48a94458807078ad2, type: 2}
   - {fileID: 11400000, guid: a5de424d2ff8c5f4a825ca87a67eb2b8, type: 2}
-  - {fileID: 11400000, guid: 33c7ebf108950b3499ce4d2992ac0994, type: 2}
   - {fileID: 11400000, guid: df0b4ceae9d0b3c428097a08324a7e3c, type: 2}
+  - {fileID: 11400000, guid: 33c7ebf108950b3499ce4d2992ac0994, type: 2}
   - {fileID: 11400000, guid: 0d60e7cc2818f0a4480e166e4795c374, type: 2}

@@ -15,3 +15,7 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 093c855a5e328b04fa0433070c82f1aa, type: 3}
   BrawlerName: Bea
   RarityType: 3
+  Health: 120
+  Damage: 0
+  Super: 0
+  Practicality: 0

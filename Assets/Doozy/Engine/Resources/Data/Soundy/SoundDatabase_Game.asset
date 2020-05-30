@@ -330,8 +330,7 @@ MonoBehaviour:
   m_Name: SoundDatabase_Game
   m_EditorClassIdentifier: 
   DatabaseName: Game
-  OutputAudioMixerGroup: {fileID: 243200503604879540, guid: bc155dfdccec1be4780029a8bd542de5,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   SoundNames:
   - No Sound
   - buy_gems_01

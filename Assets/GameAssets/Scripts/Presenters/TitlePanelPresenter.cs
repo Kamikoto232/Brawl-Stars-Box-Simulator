@@ -14,19 +14,19 @@ public class TitlePanelPresenter : MonoBehaviour
 
     public static void SetCoinsValue(int Value)
     {
-        instance.CoinsProg.SetMax(Value);
+        instance.CoinsProg.SetMax(100000);
         instance.CoinsProg.SetValue(Value);
     }
 
     public static void SetGemsValue(int Value)
     {
-        instance.GemsProg.SetMax(Value);
+        instance.GemsProg.SetMax(100000);
         instance.GemsProg.SetValue(Value);
     }
 
     public static void SetTicketsValue(int Value)
     {
-        instance.TicketsProg.SetMax(Value);
+        instance.TicketsProg.SetMax(100000);
         instance.TicketsProg.SetValue(Value);
     }
 

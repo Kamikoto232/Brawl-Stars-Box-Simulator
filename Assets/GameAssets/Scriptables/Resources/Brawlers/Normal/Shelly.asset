@@ -15,3 +15,7 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 172921db9499bfd489d6d34bb3aa71ec, type: 3}
   BrawlerName: Shelly
   RarityType: 0
+  Health: 180
+  Damage: 15
+  Super: 16
+  Practicality: 2

@@ -54,25 +54,16 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 97bdf870309b327469724fd9c7b746e1, type: 3}
-    - {fileID: 2800000, guid: 5defa89eb071f13428d83a6011c20df6, type: 3}
-    - {fileID: 2800000, guid: cac356290cbf97543913c61896c51203, type: 3}
-    - {fileID: 2800000, guid: b20a446a6da90d54abf496c83c95f175, type: 3}
-    - {fileID: 2800000, guid: 13a56fa398f5373429d26660932ad56e, type: 3}
-    totalSpriteSurfaceArea: 747520
+    - {fileID: 2800000, guid: 41dd5049a38e14c4f8059678c33bc307, type: 3}
+    - {fileID: 2800000, guid: 2f12121e5e90f2449b0280c5a354ade8, type: 3}
+    totalSpriteSurfaceArea: 737280
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 97bdf870309b327469724fd9c7b746e1, type: 3}
-  - {fileID: 21300000, guid: 13a56fa398f5373429d26660932ad56e, type: 3}
-  - {fileID: 21300000, guid: cac356290cbf97543913c61896c51203, type: 3}
-  - {fileID: 21300000, guid: b20a446a6da90d54abf496c83c95f175, type: 3}
-  - {fileID: 21300000, guid: 5defa89eb071f13428d83a6011c20df6, type: 3}
+  - {fileID: 21300000, guid: 41dd5049a38e14c4f8059678c33bc307, type: 3}
+  - {fileID: 21300000, guid: 2f12121e5e90f2449b0280c5a354ade8, type: 3}
   m_PackedSpriteNamesToIndex:
-  - BackGround-sharedassets0.assets.split0-29
-  - backrground_lemon-sharedassets2.assets.split0-19
-  - blur_loading-sharedassets2.assets.split0-46
-  - RedBG-sharedassets0.assets.split0-41
-  - background_gold-sharedassets2.assets.split0-31
+  - BackGround
+  - Splash2
   m_Tag: BGs
   m_IsVariant: 0

@@ -25,7 +25,7 @@ public class ADSManager : MonoBehaviour
         }
     }
 
-    public static void HideBanner()     //TODO:сделать показ баннеров в определенных местах
+    public static void HideBanner()     //TODO:сделать показ баннеров в определенных местахЯ
     {
         //Advertising.HideBannerAd(BannerAdNetwork.UnityAds, AdPlacement.Default);
     }

@@ -40,8 +40,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 350}
+  m_AnchoredPosition: {x: -22.900024, y: 0}
+  m_SizeDelta: {x: 300, y: 315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1761290707879082644
 CanvasRenderer:
@@ -241,7 +241,7 @@ MonoBehaviour:
     textComponent: {fileID: 1761290709149506315}
     characterCount: 3
     spriteCount: 0
-    spaceCount: 0
+    spaceCount: 1
     wordCount: 2
     linkCount: 0
     lineCount: 1
@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 1300947513691818052}
   - component: {fileID: 2169243303939226980}
   - component: {fileID: 7483961673986237352}
-  - component: {fileID: 4712559434911124865}
+  - component: {fileID: 7758426106019803896}
   m_Layer: 0
   m_Name: Brawler Icon - Mask
   m_TagString: Untagged
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4512095472326073634}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -432,7 +432,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4712559434911124865
+--- !u!114 &7758426106019803896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,9 +441,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4512095472326073634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1 &5859985034022512372
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,8 +479,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 335, y: 0}
+  m_AnchoredPosition: {x: 5, y: 5}
+  m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5836484748635384283
 CanvasRenderer:
@@ -503,11 +504,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 198d50a24c3946b4aa4b162ff92ec85f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ceeabc90ccd188945bab9eb4349a4f1d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -581,7 +582,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 0686e0f26cf25fc45a71012ce10a4004, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -589,7 +590,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 5
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &7295753101055253987
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +997,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: /500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348125727210637235, guid: 2a04064625906144ea47ff1739e6de0b,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348125727210637235, guid: 2a04064625906144ea47ff1739e6de0b,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348125727210637235, guid: 2a04064625906144ea47ff1739e6de0b,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6348125728221488418, guid: 2a04064625906144ea47ff1739e6de0b,
         type: 3}
